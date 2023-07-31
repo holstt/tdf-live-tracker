@@ -1,0 +1,20 @@
+version: "3.8"
+
+# TODO: Add backend and move to project root.
+
+# Project name
+name: tdf
+
+services:
+    # Builds static files for the website client
+    client:
+        build:
+            # context: ./client
+            context: .
+        # dockerfile: ./frontend/Dockerfile
+        restart: "no"
+        environment:
+            # Where build files should be output
+            - OUTPUT_DIR=/build
+        volumes:
+            - ./build:/build
