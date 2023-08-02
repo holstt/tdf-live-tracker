@@ -16,5 +16,7 @@ services:
         environment:
             # Where build files should be output
             - OUTPUT_DIR=/build
+            # Base url for the server
+            - API_URL=${API_URL}
         volumes:
             - ./build:/build
