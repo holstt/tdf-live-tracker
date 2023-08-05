@@ -1,5 +1,7 @@
 # tdf-live-tracker
 
+[![build](https://github.com/holstt/tdf-live-tracker/actions/workflows/build.yml/badge.svg)](https://github.com/holstt/tdf-live-tracker/actions/workflows/build.yml)
+
 Follow the real-time progression of every Tour de France stage.
 
 <img src="docs/screenshot.png" width=50%>
