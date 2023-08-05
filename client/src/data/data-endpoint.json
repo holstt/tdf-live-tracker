@@ -1,0 +1,1590 @@
+{
+    "stageNumber": 5,
+    "groups": [
+        {
+            "id": 1,
+            "name": "Front of the Race",
+            "completedDistance": 77060,
+            "remainingDistance": 85640,
+            "size": 3,
+            "riders": [
+                {
+                    "bibNumber": 182,
+                    "firstName": "Victor",
+                    "lastName": "CAMPENAERTS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 86,
+                    "firstName": "Mads",
+                    "lastName": "PEDERSEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 6,
+                    "firstName": "Wout",
+                    "lastName": "VAN AERT",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                }
+            ],
+            "secondsToPrevGroup": null,
+            "secondsToFront": 0
+        },
+        {
+            "id": 2,
+            "name": "Counter Attack 1",
+            "completedDistance": 76860,
+            "remainingDistance": 85840,
+            "size": 32,
+            "riders": [
+                {
+                    "bibNumber": 53,
+                    "firstName": "Rémi",
+                    "lastName": "CAVAGNA",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 51,
+                    "firstName": "Julian",
+                    "lastName": "ALAPHILIPPE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 187,
+                    "firstName": "Maxim",
+                    "lastName": "VAN GILS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 155,
+                    "firstName": "Krists",
+                    "lastName": "NEILANDS",
+                    "countryCode": "LV",
+                    "countryName": "Latvia",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 85,
+                    "firstName": "Juan Pedro",
+                    "lastName": "LOPEZ PEREZ",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 72,
+                    "firstName": "Emanuel",
+                    "lastName": "BUCHMANN",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 48,
+                    "firstName": "Rigoberto",
+                    "lastName": "URAN",
+                    "countryCode": "CO",
+                    "countryName": "Colombia",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 35,
+                    "firstName": "Valentin",
+                    "lastName": "MADOUAS",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 23,
+                    "firstName": "Omar",
+                    "lastName": "FRAILE MATARRANZ",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 92,
+                    "firstName": "Clément",
+                    "lastName": "BERTHET",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 81,
+                    "firstName": "Giulio",
+                    "lastName": "CICCONE",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 71,
+                    "firstName": "Jai",
+                    "lastName": "HINDLEY",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 66,
+                    "firstName": "Jack",
+                    "lastName": "HAIG",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 5,
+                    "firstName": "Christophe",
+                    "lastName": "LAPORTE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 44,
+                    "firstName": "Jhoan Esteban",
+                    "lastName": "CHAVES RUBIO",
+                    "countryCode": "CO",
+                    "countryName": "Colombia",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 2,
+                    "firstName": "Tiesj",
+                    "lastName": "BENOOT",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 198,
+                    "firstName": "Harold Alfonso",
+                    "lastName": "TEJADA CANACUE",
+                    "countryCode": "CO",
+                    "countryName": "Colombia",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 154,
+                    "firstName": "Hugo",
+                    "lastName": "HOULE",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 14,
+                    "firstName": "Felix",
+                    "lastName": "GROSSSCHARTNER",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 135,
+                    "firstName": "Matteo",
+                    "lastName": "JORGENSON",
+                    "countryCode": "US",
+                    "countryName": "United States of America",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 97,
+                    "firstName": "Aurélien",
+                    "lastName": "PARET PEINTRE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 95,
+                    "firstName": "Felix",
+                    "lastName": "GALL",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 25,
+                    "firstName": "Daniel Felipe",
+                    "lastName": "MARTINEZ POVEDA",
+                    "countryCode": "CO",
+                    "countryName": "Colombia",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 213,
+                    "firstName": "Mathieu",
+                    "lastName": "BURGAUDEAU",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 206,
+                    "firstName": "Torstein",
+                    "lastName": "TRÆEN",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 174,
+                    "firstName": "Anthony",
+                    "lastName": "DELAPLACE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 17,
+                    "firstName": "Marc",
+                    "lastName": "SOLER",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 166,
+                    "firstName": "Juul Christopher",
+                    "lastName": "JENSEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 146,
+                    "firstName": "Christopher",
+                    "lastName": "HAMILTON",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 136,
+                    "firstName": "Gregor",
+                    "lastName": "MÜHLBERGER",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 122,
+                    "firstName": "Bryan",
+                    "lastName": "COQUARD",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 75,
+                    "firstName": "Patrick",
+                    "lastName": "KONRAD",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                }
+            ],
+            "secondsToPrevGroup": 26,
+            "secondsToFront": 26
+        },
+        {
+            "id": 3,
+            "name": "Counter Attack 2",
+            "completedDistance": 76640,
+            "remainingDistance": 86060,
+            "size": 1,
+            "riders": [
+                {
+                    "bibNumber": 52,
+                    "firstName": "Kasper",
+                    "lastName": "ASGREEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                }
+            ],
+            "secondsToPrevGroup": 32,
+            "secondsToFront": 58
+        },
+        {
+            "id": 4,
+            "name": "Peloton",
+            "completedDistance": 75740,
+            "remainingDistance": 86960,
+            "size": 133,
+            "riders": [
+                {
+                    "bibNumber": 8,
+                    "firstName": "Nathan",
+                    "lastName": "VAN HOOYDONCK",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 4,
+                    "firstName": "Sepp",
+                    "lastName": "KUSS",
+                    "countryCode": "US",
+                    "countryName": "United States of America",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 19,
+                    "firstName": "Adam",
+                    "lastName": "YATES",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 18,
+                    "firstName": "Matteo",
+                    "lastName": "TRENTIN",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 15,
+                    "firstName": "Vegard Stake",
+                    "lastName": "LAENGEN",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 12,
+                    "firstName": "Mikkel",
+                    "lastName": "BJERG",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 1,
+                    "firstName": "Jonas",
+                    "lastName": "VINGEGAARD",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 91,
+                    "firstName": "Ben",
+                    "lastName": "O'CONNOR",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 7,
+                    "firstName": "Dylan",
+                    "lastName": "VAN BAARLE",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 36,
+                    "firstName": "Quentin",
+                    "lastName": "PACHER",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 3,
+                    "firstName": "Wilco",
+                    "lastName": "KELDERMAN",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "JUMBO-VISMA",
+                    "teamCode": "TJV"
+                },
+                {
+                    "bibNumber": 26,
+                    "firstName": "Thomas",
+                    "lastName": "PIDCOCK",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 24,
+                    "firstName": "Michal",
+                    "lastName": "KWIATKOWSKI",
+                    "countryCode": "PL",
+                    "countryName": "Poland",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 22,
+                    "firstName": "Jonathan",
+                    "lastName": "CASTROVIEJO NICOLAS",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 21,
+                    "firstName": "Egan",
+                    "lastName": "BERNAL GOMEZ",
+                    "countryCode": "CO",
+                    "countryName": "Colombia",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 16,
+                    "firstName": "Rafal",
+                    "lastName": "MAJKA",
+                    "countryCode": "PL",
+                    "countryName": "Poland",
+                    "teamName": "UAE TEAM EMIRATES",
+                    "teamCode": "UAD"
+                },
+                {
+                    "bibNumber": 153,
+                    "firstName": "Simon",
+                    "lastName": "CLARKE",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 152,
+                    "firstName": "Guillaume",
+                    "lastName": "BOIVIN",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 151,
+                    "firstName": "Michael",
+                    "lastName": "WOODS",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 147,
+                    "firstName": "Kevin",
+                    "lastName": "VERMAERKE",
+                    "countryCode": "US",
+                    "countryName": "United States of America",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 145,
+                    "firstName": "Nils",
+                    "lastName": "EEKHOFF",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 98,
+                    "firstName": "Nans",
+                    "lastName": "PETERS",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 96,
+                    "firstName": "Oliver",
+                    "lastName": "NAESEN",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 94,
+                    "firstName": "Stan",
+                    "lastName": "DEWULF",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 88,
+                    "firstName": "Jasper",
+                    "lastName": "STUYVEN",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 68,
+                    "firstName": "Wout",
+                    "lastName": "POELS",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 67,
+                    "firstName": "Matej",
+                    "lastName": "MOHORIC",
+                    "countryCode": "SI",
+                    "countryName": "Slovenia",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 37,
+                    "firstName": "Thibaut",
+                    "lastName": "PINOT",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 34,
+                    "firstName": "Olivier",
+                    "lastName": "LE GAC",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 32,
+                    "firstName": "Kévin",
+                    "lastName": "GENIETS",
+                    "countryCode": "LU",
+                    "countryName": "Luxembourg",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 31,
+                    "firstName": "David",
+                    "lastName": "GAUDU",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 28,
+                    "firstName": "Ben",
+                    "lastName": "TURNER",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 27,
+                    "firstName": "Carlos",
+                    "lastName": "RODRIGUEZ CANO",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "INEOS GRENADIERS",
+                    "teamCode": "IGD"
+                },
+                {
+                    "bibNumber": 217,
+                    "firstName": "Daniel",
+                    "lastName": "OSS",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 214,
+                    "firstName": "Steff",
+                    "lastName": "CRAS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 195,
+                    "firstName": "Alexey",
+                    "lastName": "LUTSENKO",
+                    "countryCode": "KZ",
+                    "countryName": "Kazakhstan",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 157,
+                    "firstName": "Corbin",
+                    "lastName": "STRONG",
+                    "countryCode": "NZ",
+                    "countryName": "New Zealand",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 148,
+                    "firstName": "Sam",
+                    "lastName": "WELSFORD",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 142,
+                    "firstName": "John",
+                    "lastName": "DEGENKOLB",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 141,
+                    "firstName": "Romain",
+                    "lastName": "BARDET",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 138,
+                    "firstName": "Antonio",
+                    "lastName": "PEDRERO",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 137,
+                    "firstName": "Nelson",
+                    "lastName": "OLIVEIRA",
+                    "countryCode": "PT",
+                    "countryName": "Portugal",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 132,
+                    "firstName": "Ruben",
+                    "lastName": "ALMEIDA GUERREIRO",
+                    "countryCode": "PT",
+                    "countryName": "Portugal",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 83,
+                    "firstName": "Skjelmose Mattias",
+                    "lastName": "JENSEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 74,
+                    "firstName": "Bob",
+                    "lastName": "JUNGELS",
+                    "countryCode": "LU",
+                    "countryName": "Luxembourg",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 69,
+                    "firstName": "Fred",
+                    "lastName": "WRIGHT",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 65,
+                    "firstName": "Pello",
+                    "lastName": "BILBAO LOPEZ DE ARMENTIA",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 63,
+                    "firstName": "Nikias",
+                    "lastName": "ARNDT",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 62,
+                    "firstName": "Mikel",
+                    "lastName": "LANDA MEANA",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 47,
+                    "firstName": "James",
+                    "lastName": "SHAW",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 46,
+                    "firstName": "Neilson",
+                    "lastName": "POWLESS",
+                    "countryCode": "US",
+                    "countryName": "United States of America",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 43,
+                    "firstName": "Alberto",
+                    "lastName": "BETTIOL",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 38,
+                    "firstName": "Lars",
+                    "lastName": "VAN DEN BERG",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 33,
+                    "firstName": "Stefan",
+                    "lastName": "KÜNG",
+                    "countryCode": "CH",
+                    "countryName": "Switzerland",
+                    "teamName": "GROUPAMA - FDJ",
+                    "teamCode": "GFC"
+                },
+                {
+                    "bibNumber": 212,
+                    "firstName": "Edvald",
+                    "lastName": "BOASSON-HAGEN",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 177,
+                    "firstName": "Luca",
+                    "lastName": "MOZZATO",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 167,
+                    "firstName": "Luka",
+                    "lastName": "MEZGEC",
+                    "countryCode": "SI",
+                    "countryName": "Slovenia",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 158,
+                    "firstName": "Dylan",
+                    "lastName": "TEUNS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 144,
+                    "firstName": "Alexander",
+                    "lastName": "EDMONDSON",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 134,
+                    "firstName": "Gorka",
+                    "lastName": "IZAGIRRE INSAUSTI",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 133,
+                    "firstName": "Alex",
+                    "lastName": "ARANBURU DEBA",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "MOVISTAR TEAM",
+                    "teamCode": "MOV"
+                },
+                {
+                    "bibNumber": 128,
+                    "firstName": "Axel",
+                    "lastName": "ZINGLE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 126,
+                    "firstName": "Anthony",
+                    "lastName": "PEREZ",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 123,
+                    "firstName": "Simon",
+                    "lastName": "GESCHKE",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 93,
+                    "firstName": "Benoit",
+                    "lastName": "COSNEFROY",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "AG2R CITROEN TEAM",
+                    "teamCode": "ACT"
+                },
+                {
+                    "bibNumber": 84,
+                    "firstName": "Alex",
+                    "lastName": "KIRSCH",
+                    "countryCode": "LU",
+                    "countryName": "Luxembourg",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 82,
+                    "firstName": "Tony",
+                    "lastName": "GALLOPIN",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "LIDL - TREK",
+                    "teamCode": "LTK"
+                },
+                {
+                    "bibNumber": 77,
+                    "firstName": "Nils",
+                    "lastName": "POLITT",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 216,
+                    "firstName": "Pierre",
+                    "lastName": "LATOUR",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 208,
+                    "firstName": "Gregaard Jonas",
+                    "lastName": "WILSLY",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 205,
+                    "firstName": "Rasmus",
+                    "lastName": "TILLER",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 193,
+                    "firstName": "David",
+                    "lastName": "DE LA CRUZ MELGAREJO",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 184,
+                    "firstName": "Pascal",
+                    "lastName": "EENKHOORN",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 176,
+                    "firstName": "Matis",
+                    "lastName": "LOUVEL",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 172,
+                    "firstName": "Jenthe",
+                    "lastName": "BIERMANS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 171,
+                    "firstName": "Warren",
+                    "lastName": "BARGUIL",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 163,
+                    "firstName": "Luke",
+                    "lastName": "DURBRIDGE",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 162,
+                    "firstName": "G Lawson",
+                    "lastName": "CRADDOCK",
+                    "countryCode": "US",
+                    "countryName": "United States of America",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 161,
+                    "firstName": "Simon",
+                    "lastName": "YATES",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 143,
+                    "firstName": "Matthew",
+                    "lastName": "DINHAM",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM DSM - FIRMENICH",
+                    "teamCode": "DSM"
+                },
+                {
+                    "bibNumber": 127,
+                    "firstName": "Alexis",
+                    "lastName": "RENARD",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 121,
+                    "firstName": "Guillaume",
+                    "lastName": "MARTIN GUYONNET",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 113,
+                    "firstName": "Rui",
+                    "lastName": "COSTA",
+                    "countryCode": "PT",
+                    "countryName": "Portugal",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 102,
+                    "firstName": "Silvan",
+                    "lastName": "DILLIER",
+                    "countryCode": "CH",
+                    "countryName": "Switzerland",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 101,
+                    "firstName": "Mathieu",
+                    "lastName": "VAN DER POEL",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 78,
+                    "firstName": "Danny",
+                    "lastName": "VAN POPPEL",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 76,
+                    "firstName": "Jordi",
+                    "lastName": "MEEUS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 215,
+                    "firstName": "Valentin",
+                    "lastName": "FERRON",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 211,
+                    "firstName": "Peter",
+                    "lastName": "SAGAN",
+                    "countryCode": "SK",
+                    "countryName": "Slovakia",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 207,
+                    "firstName": "Søren",
+                    "lastName": "WÆRENSKJOLD",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 194,
+                    "firstName": "Yevgeniy",
+                    "lastName": "FEDOROV",
+                    "countryCode": "KZ",
+                    "countryName": "Kazakhstan",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 178,
+                    "firstName": "Laurent",
+                    "lastName": "PICHON",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 175,
+                    "firstName": "Simon",
+                    "lastName": "GUGLIELMI",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 173,
+                    "firstName": "Clément",
+                    "lastName": "CHAMPOUSSIN",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TEAM ARKEA - SAMSIC",
+                    "teamCode": "ARK"
+                },
+                {
+                    "bibNumber": 164,
+                    "firstName": "Dylan",
+                    "lastName": "GROENEWEGEN",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 156,
+                    "firstName": "Nicholas",
+                    "lastName": "SCHULTZ",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "ISRAEL - PREMIER TECH",
+                    "teamCode": "IPT"
+                },
+                {
+                    "bibNumber": 124,
+                    "firstName": "Ion",
+                    "lastName": "IZAGIRRE INSAUSTI",
+                    "countryCode": "ES",
+                    "countryName": "Spain",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 117,
+                    "firstName": "Mike",
+                    "lastName": "TEUNISSEN",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 114,
+                    "firstName": "Louis",
+                    "lastName": "MEINTJES",
+                    "countryCode": "ZA",
+                    "countryName": "South Africa",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 112,
+                    "firstName": "Lilian",
+                    "lastName": "CALMEJANE",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 106,
+                    "firstName": "Jasper",
+                    "lastName": "PHILIPSEN",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 73,
+                    "firstName": "Marco",
+                    "lastName": "HALLER",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "BORA - HANSGROHE",
+                    "teamCode": "BOH"
+                },
+                {
+                    "bibNumber": 57,
+                    "firstName": "Yves",
+                    "lastName": "LAMPAERT",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 56,
+                    "firstName": "Fabio",
+                    "lastName": "JAKOBSEN",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 45,
+                    "firstName": "Magnus Cort",
+                    "lastName": "NIELSEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 42,
+                    "firstName": "Andrey",
+                    "lastName": "AMADOR",
+                    "countryCode": "CR",
+                    "countryName": "Costa Rica",
+                    "teamName": "EF EDUCATION - EASYPOST",
+                    "teamCode": "EFE"
+                },
+                {
+                    "bibNumber": 218,
+                    "firstName": "Anthony",
+                    "lastName": "TURGIS",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "TOTALENERGIES",
+                    "teamCode": "TEN"
+                },
+                {
+                    "bibNumber": 204,
+                    "firstName": "Tobias Halland",
+                    "lastName": "JOHANNESSEN",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 181,
+                    "firstName": "Caleb",
+                    "lastName": "EWAN",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 168,
+                    "firstName": "Elmar",
+                    "lastName": "REINDERS",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 165,
+                    "firstName": "Chris",
+                    "lastName": "HARPER",
+                    "countryCode": "AU",
+                    "countryName": "Australia",
+                    "teamName": "TEAM JAYCO ALULA",
+                    "teamCode": "JAY"
+                },
+                {
+                    "bibNumber": 125,
+                    "firstName": "Victor",
+                    "lastName": "LAFAY",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "COFIDIS",
+                    "teamCode": "COF"
+                },
+                {
+                    "bibNumber": 118,
+                    "firstName": "Georg",
+                    "lastName": "ZIMMERMANN",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 116,
+                    "firstName": "Dion",
+                    "lastName": "SMITH",
+                    "countryCode": "NZ",
+                    "countryName": "New Zealand",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 115,
+                    "firstName": "Adrien",
+                    "lastName": "PETIT",
+                    "countryCode": "FR",
+                    "countryName": "France",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 111,
+                    "firstName": "Biniam",
+                    "lastName": "GIRMAY",
+                    "countryCode": "ER",
+                    "countryName": "Eritrea",
+                    "teamName": "INTERMARCHÉ - CIRCUS - WANTY",
+                    "teamCode": "ICW"
+                },
+                {
+                    "bibNumber": 107,
+                    "firstName": "Jonas",
+                    "lastName": "RICKAERT",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 105,
+                    "firstName": "Søren",
+                    "lastName": "KRAGH ANDERSEN",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 104,
+                    "firstName": "Quinten",
+                    "lastName": "HERMANS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 103,
+                    "firstName": "Michael",
+                    "lastName": "GOGL",
+                    "countryCode": "AT",
+                    "countryName": "Austria",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                },
+                {
+                    "bibNumber": 55,
+                    "firstName": "Dries",
+                    "lastName": "DEVENYNS",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 203,
+                    "firstName": "Anthon",
+                    "lastName": "CHARMIG",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 202,
+                    "firstName": "Jonas",
+                    "lastName": "ABRAHAMSEN",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 201,
+                    "firstName": "Alexander",
+                    "lastName": "KRISTOFF",
+                    "countryCode": "NO",
+                    "countryName": "Norway",
+                    "teamName": "UNO-X PRO CYCLING TEAM",
+                    "teamCode": "UXT"
+                },
+                {
+                    "bibNumber": 188,
+                    "firstName": "Florian",
+                    "lastName": "VERMEERSCH",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 183,
+                    "firstName": "Jasper",
+                    "lastName": "DE BUYST",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 58,
+                    "firstName": "Michael",
+                    "lastName": "MØRKØV",
+                    "countryCode": "DK",
+                    "countryName": "Denmark",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 54,
+                    "firstName": "Tim",
+                    "lastName": "DECLERCQ",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "SOUDAL QUICK-STEP",
+                    "teamCode": "SOQ"
+                },
+                {
+                    "bibNumber": 185,
+                    "firstName": "Frederik",
+                    "lastName": "FRISON",
+                    "countryCode": "BE",
+                    "countryName": "Belgium",
+                    "teamName": "LOTTO DSTNY",
+                    "teamCode": "LTD"
+                },
+                {
+                    "bibNumber": 192,
+                    "firstName": "Cees",
+                    "lastName": "BOL",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 64,
+                    "firstName": "Phil",
+                    "lastName": "BAUHAUS",
+                    "countryCode": "DE",
+                    "countryName": "Germany",
+                    "teamName": "BAHRAIN VICTORIOUS",
+                    "teamCode": "TBV"
+                },
+                {
+                    "bibNumber": 196,
+                    "firstName": "Gianni",
+                    "lastName": "MOSCON",
+                    "countryCode": "IT",
+                    "countryName": "Italy",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                },
+                {
+                    "bibNumber": 191,
+                    "firstName": "Mark",
+                    "lastName": "CAVENDISH",
+                    "countryCode": "GB",
+                    "countryName": "United Kingdom of Great Britain and Northern Ireland",
+                    "teamName": "ASTANA QAZAQSTAN TEAM",
+                    "teamCode": "AST"
+                }
+            ],
+            "secondsToPrevGroup": 101,
+            "secondsToFront": 159
+        },
+        {
+            "id": 5,
+            "name": "Back of the Race",
+            "completedDistance": 75220,
+            "remainingDistance": 87480,
+            "size": 1,
+            "riders": [
+                {
+                    "bibNumber": 108,
+                    "firstName": "Ramon",
+                    "lastName": "SINKELDAM",
+                    "countryCode": "NL",
+                    "countryName": "Netherlands",
+                    "teamName": "ALPECIN-DECEUNINCK",
+                    "teamCode": "ADC"
+                }
+            ],
+            "secondsToPrevGroup": 73,
+            "secondsToFront": 232
+        }
+    ]
+}
