@@ -1,0 +1,37 @@
+version: "3.8"
+
+# Project name
+name: tdf
+
+services:
+    client-build:
+        # At build time: Builds static files for the website client
+        # At run time: Copies build to mounted volume
+        build:
+            # context: ./client
+            context: .
+            dockerfile: ./client/Dockerfile
+            args:
+                # Base url for the server
+                - API_BASE_URL=${API_BASE_URL}
+        restart: "no"
+        environment:
+            # Name of container directory where build files should be output
+            - OUTPUT_DIR=/build
+        volumes:
+            # Mount should be the same as OUTPUT_DIR
+            - ./build:/build
+
+    # TODO:
+    # backend:
+    #     build:
+    #         context: ./backend
+    #         # dockerfile: ./backend/Dockerfile
+    #     restart: "no"
+    #     ports:
+    #         - 127.0.0.1:3002:3002
+    #     networks:
+    #         - nginx-network
+    #     environment:
+    #         - NODE_ENV=production
+    #         # - PORT=3002 # TODO: Decide port from env

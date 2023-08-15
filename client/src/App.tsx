@@ -14,7 +14,7 @@ function App() {
         if (process.env.REACT_APP_USE_FAKE_API) {
             apiClient = new FakeApiClient();
         } else {
-            console.log("Using real API");
+            // Get API base URL from environment or use default
             const apiBaseUrl =
                 process.env.API_BASE_URL || "http://localhost:3002";
             apiClient = new RealApiClient(apiBaseUrl);
