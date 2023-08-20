@@ -21,9 +21,9 @@ COPY ./models /app/models
 # Set internal build path
 ENV BUILD_PATH=/internal_build_directory_do_not_mount
 
-# Get and set build environment variables
+# Get and set build environment variables. React requires REACT_APP_ prefix.
 ARG API_BASE_URL
-ENV API_BASE_URL=${API_BASE_URL}
+ENV REACT_APP_API_BASE_URL=${API_BASE_URL}
 
 # Build app (on build time)
 RUN npm run build

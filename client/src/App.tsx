@@ -11,12 +11,15 @@ function App() {
     useEffect(() => {
         let apiClient: ApiClient;
 
-        if (process.env.REACT_APP_USE_FAKE_API) {
+        if (
+            process.env.NODE_ENV !== "production" &&
+            process.env.REACT_APP_USE_FAKE_API
+        ) {
             apiClient = new FakeApiClient();
         } else {
             // Get API base URL from environment or use default
             const apiBaseUrl =
-                process.env.API_BASE_URL || "http://localhost:3002";
+                process.env.REACT_APP_API_BASE_URL || "http://localhost:3002";
             apiClient = new RealApiClient(apiBaseUrl);
         }
 
@@ -32,9 +35,9 @@ function App() {
     }, []);
 
     return (
+        // Display error or data if available
         <div className="App" style={{ textAlign: "center" }}>
             <h1 style={{ color: "#444" }}>TDF Live Tracker</h1>
-
             {error ? (
                 <p style={{ color: "red" }}>{error}</p>
             ) : data ? (
