@@ -15,7 +15,7 @@ Follow the real-time progression of every Tour de France stage.
 -   Easy deployment with Docker Compose
 
 **TODO:**
-
+-   [ ] Push current features to `main` branch
 -   [ ] Notification at key points in the race e.g. when there's X km left of the stage to watch the final sprint or at the beginning of crucial climbs
 -   [ ] Detailed stage profiles with current positions of riders/groups.
 
