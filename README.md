@@ -38,14 +38,30 @@ Now the client and server will be accessible on a local host port specified in t
 
 ## Docker 🐳
 
-First, set the `API_BASE_URL` environment variable to the public base URL from which you serve the backend e.g. `https://api.example.com`.
+### Development
 
-Then run the docker compose project:
+To run the project with Docker in development you can simply use the command:
 
 ```
 docker compose up
 ```
 
-The dockerfile of the `build-client` container will build the static client files. At runtime, the container will copy these build files to the mounted directory `./client/build` and then exit. As such, your webserver should be configured to serve this directory. The react app assumes that files are served from the endpoint `/tdf`.
+This will build and run three containers:
 
-The `server` container will run the backend API service. Your webserver should be configured to proxy requests to this container.
+-   `build-client` will build the static files for the React website to the mounted directory `./client/build` and then exit
+-   `server` will run the backend API service
+-   `nginx` will serve the static files from `.client/build` and proxy requests to the backend API service. The nginx config is defined in `./nginx/default.conf`. NB! This container is only used for development and is not suitable for production. E.g. it listens on port 80 and does not use HTTPS.
+
+### Production
+
+It is assumed that a webserver is already running in production and attached to an existing network named `nginx_reverse-proxy` (which the backend will also be attached in prod). As mentioned above, the `nginx` container in `docker-compose.override.yml` is only suitable for testing the Docker project in development.
+
+Let the external webserver serve the static files from the directory `./client/build` at the endpoint `/tdf` and proxy requests to the backend API service. Please refer to `./nginx/default.conf` for an example of how to configure this in nginx.
+
+Set the `API_BASE_URL` environment variable to the public base URL from which the backend is served e.g. `https://api.example.com`. This is used by the React client to make requests to the backend API.
+
+Finally, run the docker compose project with the production configuration file:
+
+```
+docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+```
