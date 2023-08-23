@@ -8,12 +8,8 @@ services:
         # At build time: Builds static files for the website client
         # At run time: Copies build to mounted volume
         build:
-            # context: ./client
             context: .
             dockerfile: ./client/Dockerfile
-            args:
-                # Base url for the server
-                - API_BASE_URL=${API_BASE_URL?}
         restart: "no"
         environment:
             # Name of container directory where build files should be output
@@ -22,22 +18,13 @@ services:
             # Directory path in container should be the same as OUTPUT_DIR
             - ./client/build:/build
 
-    # TODO:
-    # server:
-    #     build:
-    #         context: ./backend
-    #         # dockerfile: ./backend/Dockerfile
-    #     restart: "no"
-    #     ports:
-    #         - 127.0.0.1:3002:3002
-    #     # Attach to network for reverse proxy
-    #     networks:
-    #         - reverse-proxy
-    #     environment:
-    #         - NODE_ENV=production
-    #         # - PORT=3002 # TODO: Decide port from env
-
-    # Declare external network for reverse proxy
-    # networks:
-    #     reverse-proxy:
-    #         external: true
+    server:
+        build:
+            context: .
+            dockerfile: ./server/Dockerfile
+        restart: "no"
+        ports:
+            - 127.0.0.1:3002:3002
+        environment:
+            - NODE_ENV=production
+            # - PORT=3002 # TODO: Decide port from env

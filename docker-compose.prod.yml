@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+    client-build:
+        build:
+            args:
+                # Base url for the production server where backend will be deployed
+                - API_BASE_URL=${API_BASE_URL?}
+
+    server:
+        # In production we attach to the network of the external reverse proxy
+        networks:
+            - reverse-proxy
+
+# Assume external network for reverse proxy is already created
+networks:
+    reverse-proxy:
+        name: nginx_reverse-proxy
+        external: true
