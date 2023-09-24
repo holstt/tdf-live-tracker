@@ -14,8 +14,11 @@ Follow the real-time progression of every Tour de France stage.
 
 **TODO:**
 
+-   [ ] Support TT stages
 -   [ ] Notification at key points in the race e.g. when there's X km left of the stage to watch the final sprint or at the beginning of crucial climbs
 -   [ ] Detailed stage profiles with current positions of riders/groups.
+-   [ ] Show current and virtual GC
+-   [ ] Support all grand tours
 
 ## Tech Stack
 
@@ -54,9 +57,9 @@ This will build and run three containers:
 
 ### Production
 
-It is assumed that a webserver is already running in production and attached to an existing network named `nginx_reverse-proxy` (which the backend will also be attached in prod). As mentioned above, the `nginx` container in `docker-compose.override.yml` is only suitable for testing the Docker project in development.
+In the docker production setup, it is assumed that a webserver is already running in production and attached to an existing network named `nginx_reverse-proxy`. As mentioned above, the `nginx` container in `docker-compose.override.yml` is only suitable for testing the Docker project in development.
 
-Let the external webserver serve the static files from the directory `./client/build` at the endpoint `/tdf` and proxy requests to the backend API service. Please refer to `./nginx/default.conf` for an example of how to configure this in nginx.
+Let the external webserver serve the static files from the directory `./client/build` at the endpoint `/tdf` and proxy requests to the backend API service. Please refer to `./nginx/default.conf` (used in development) for an example of how to configure this in nginx.
 
 Set the `API_BASE_URL` environment variable to the public base URL from which the backend is served e.g. `https://api.example.com`. This is used by the React client to make requests to the backend API.
 
