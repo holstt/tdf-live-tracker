@@ -1,11 +1,11 @@
 FROM node:18-alpine as build
 
-WORKDIR /app
+WORKDIR /app/client
 
 # Install dependencies
-COPY package.json package.json
-COPY package-lock.json package-lock.json
-COPY tsconfig.json tsconfig.json
+COPY ./client/package.json package.json
+COPY ./client/package-lock.json package-lock.json
+COPY ./client/tsconfig.json tsconfig.json
 RUN npm install
 
 # Install and validate typescript installation
@@ -13,14 +13,21 @@ RUN npm i -g typescript
 RUN tsc --version
 
 # Copy source code
-COPY . .
+COPY ./client .
 
-# Set build path
+# Copy shared models
+COPY ./models /app/models
+
+# Set internal build path
 ENV BUILD_PATH=/internal_build_directory_do_not_mount
 
-# Build project
+# Get and set build environment variables. React requires REACT_APP_ prefix.
+ARG API_BASE_URL
+ENV REACT_APP_API_BASE_URL=${API_BASE_URL}
+
+# Build app (on build time)
 RUN npm run build
 
-# Copy build to mounted directory when container starts up
+# On run time: Copy build to mounted directory when container starts up
 ENTRYPOINT echo "Copying build files from ${BUILD_PATH} to ${OUTPUT_DIR}" && cp -r /internal_build_directory_do_not_mount/* ${OUTPUT_DIR}/
 

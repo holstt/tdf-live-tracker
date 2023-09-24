@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+    # Create dev nginx service
+    nginx:
+        image: nginx:latest
+        restart: no
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+            - ./client/build:/usr/local/nginx/tdf-frontend:ro
+        networks:
+            - dev-network
+
+    server:
+        networks:
+            - dev-network
+
+# Define dev-network
+networks:
+    dev-network:

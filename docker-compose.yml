@@ -1,0 +1,30 @@
+version: "3.8"
+
+# Project name
+name: tdf
+
+services:
+    client-build:
+        # At build time: Builds static files for the website client
+        # At run time: Copies build to mounted volume
+        build:
+            context: .
+            dockerfile: ./client/Dockerfile
+        restart: "no"
+        environment:
+            # Name of container directory where build files should be output
+            - OUTPUT_DIR=/build
+        volumes:
+            # Directory path in container should be the same as OUTPUT_DIR
+            - ./client/build:/build
+
+    server:
+        build:
+            context: .
+            dockerfile: ./server/Dockerfile
+        restart: "no"
+        ports:
+            - 127.0.0.1:3002:3002
+        environment:
+            - NODE_ENV=production
+            # - PORT=3002 # TODO: Decide port from env
